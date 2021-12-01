@@ -1,5 +1,5 @@
 {
-  "name": "App",
+  "name": "app",
   "version": "1.0.0",
   "description": "simple react app",
   "main": "./src/index.ts",
@@ -7,7 +7,7 @@
     "start": "cross-env NODE_ENV=development webpack serve",
     "build": "cross-env NODE_ENV=production webpack",
     "check-types": "tsc -w",
-    "test": "jest --watchAll"
+    "test": "jest --watch"
   },
   "author": "Sebastian Degner <hello@sebastiandegner.com>",
   "license": "ISC",
