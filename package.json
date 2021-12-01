@@ -70,11 +70,16 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "browserslist": [
-    "Safari >= 10",
-    "Chrome >= 66",
-    "ff >= 60",
-    "Edge >= 16",
-    "Samsung >= 8"
-  ]
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
